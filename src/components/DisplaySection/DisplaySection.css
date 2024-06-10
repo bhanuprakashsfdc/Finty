@@ -1,0 +1,6 @@
+.DisplaySection{
+    display: flex;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

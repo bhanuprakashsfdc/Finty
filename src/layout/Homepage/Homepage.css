@@ -1,0 +1,10 @@
+.homecon{
+   position: relative;
+   display: flex !important;
+}
+.item3{
+    width: 70%;
+}
+.item4{
+    width: 30%;
+}
