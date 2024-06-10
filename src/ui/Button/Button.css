@@ -1,0 +1,22 @@
+.pributton {
+    padding: 10px 20px;
+    font-size: 13px;
+    color: white;
+    background-color: #F29718; /* Using the primary color from your color scheme */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 90px;
+  }
+  .secbutton {
+    padding: 10px 20px;
+    font-size: 13px;
+    color: black;
+    background-color: #FFFFFF; /* Using the primary color from your color scheme */
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 90px;
+  }
