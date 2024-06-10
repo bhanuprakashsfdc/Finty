@@ -9,7 +9,7 @@
   .stock-scroller-container {
     display: flex;
     white-space: nowrap;
-    animation: ticker 40s linear infinite;
+    animation: ticker 10s linear infinite;
     /*
     display: flex;
     overflow-x: auto;
@@ -67,6 +67,8 @@
   .stock-scroller-container::-webkit-scrollbar-track {
     background-color: #021638;
   }
+  span{
+  }
   
   /** Ticker Animation **/
   @keyframes ticker {
@@ -74,6 +76,6 @@
       transform: translateX(100%);
     }
     to {
-      transform: translateX(-300%);
+      transform: translateX(-10%);
     }
   }

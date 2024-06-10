@@ -18,4 +18,5 @@
 }
 .scroller{
     display: flex;
+    width: 85%;
 }
