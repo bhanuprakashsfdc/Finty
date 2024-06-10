@@ -1,0 +1,21 @@
+.MiniFooter{
+    font-size: 13px;
+    display: flex;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.mfleftnav{
+    display: flex;
+}
+.mfleftnavtext{
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid;
+}
+.mfrightnav{
+    display: flex;
+}
+.mf-icon{
+    max-width: 60%;
+}

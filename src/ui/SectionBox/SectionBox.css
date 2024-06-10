@@ -1,0 +1,25 @@
+.dynamic-grid {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 14px;
+    color: #151515; /* Text color from your color scheme */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 1 1 33%; /* Each column takes up to 33% of the row width */
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+  }
+  
