@@ -27,7 +27,8 @@
   
   .main-article, .side-article {
     padding: 10px;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
   }
   
   .main-article {
