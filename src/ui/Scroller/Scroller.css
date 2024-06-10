@@ -1,0 +1,79 @@
+.scroller-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    margin: auto;
+  }
+  
+  .stock-scroller-container {
+    display: flex;
+    white-space: nowrap;
+    animation: ticker 40s linear infinite;
+    /*
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #5D46FD #021638;
+    */
+  }
+  
+  .stock-scroller-item {
+    /*
+    flex: none;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #FE6F3D;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    */
+  }
+  
+  .stock-name, .stock-price, .stock-change {
+    margin-right: 10px;
+  }
+  
+  .up {
+    color: #4CAF50; 
+  }
+  
+  .down {
+    color: #F44336; 
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5D46FD; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the scrollbar (for webkit browsers) */
+  .stock-scroller-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .stock-scroller-container::-webkit-scrollbar-thumb {
+    background-color: #5D46FD;
+    border-radius: 10px;
+  }
+  
+  .stock-scroller-container::-webkit-scrollbar-track {
+    background-color: #021638;
+  }
+  
+  /** Ticker Animation **/
+  @keyframes ticker {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-300%);
+    }
+  }

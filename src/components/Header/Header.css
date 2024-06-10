@@ -1,6 +1,8 @@
 .headerview{
     display: flex;
-    overflow: hidden;
+    justify-content: space-between; /* This spreads out the child elements across the header */
+    align-items: center; /* This ensures all items are centered vertically */
+    padding: 10px 20px; /* Adjust padding as needed */
 }
 .nav-icon{
     padding-right: 20px;
