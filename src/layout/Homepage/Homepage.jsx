@@ -7,7 +7,6 @@ const Homepage = () => {
  return (
     <div className ="homecon">
       <div className = "item3">
-        <Chart />
       </div>
       <div className = "item4">
          <MarketsSection />

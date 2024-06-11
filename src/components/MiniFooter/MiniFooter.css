@@ -20,3 +20,57 @@
 .mf-icon{
     max-width: 60%;
 }
+
+/* Responsive adjustments */
+
+@media only screen and (max-width:800px) {
+    .MiniFooter {
+        flex-direction: column; /* Stack children vertically on small screens */
+        display: block;
+    }
+
+    .mfleftnav, .mfrightnav {
+        flex-direction: row; /* Stack links and icons vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .mfleftnavtext {
+        margin-right: 0; /* Remove margin between text items */
+        margin-bottom: 10px; /* Add space between stacked items */
+    }
+
+    .mf-icon {
+        margin-left: 0; /* Align icons without left margin */
+        margin-bottom: 0; /* Space between icons when stacked */
+    }
+    .mfrightnav{
+        justify-content: space-evenly;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .MiniFooter {
+        flex-direction: column; /* Stack children vertically on small screens */
+        display: block;
+    }
+
+    .mfleftnav, .mfrightnav {
+        flex-direction: row; /* Stack links and icons vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .mfleftnavtext {
+        margin-right: 0; /* Remove margin between text items */
+        margin-bottom: 10px; /* Add space between stacked items */
+    }
+
+    .mf-icon {
+        margin-left: 0; /* Align icons without left margin */
+        margin-bottom: 0; /* Space between icons when stacked */
+    }
+    .mfrightnav{
+        justify-content: space-evenly;
+        display: flex;
+    }
+}

@@ -3,7 +3,7 @@ import './PopularStocks.css'
 import PopularStocksJson from '../../data/popularstocks.json'
 const PopularStocks = () => {
   return (
-    <div>
+    <div className="popularstocks">
     <h2 className="header">{PopularStocksJson.header}</h2>
     <div className='lsdata'>
         {PopularStocksJson.content.map((item, index) => (

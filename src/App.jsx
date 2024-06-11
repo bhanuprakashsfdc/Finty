@@ -18,14 +18,19 @@ function App() {
       <Header />
       <MarketScroller />
       <MiniNav />
+     {/* 
       <Homepage />
-      <TrendingStories />
-      <PopularStocks />
-      <Nifty50list />
-      <LatestStories />
-      <DisplaySection />
-      <MiniFooter />
-      <Footer />
+      
+      
+           
+     */} 
+     <TrendingStories />
+     <PopularStocks />
+     <Nifty50list />
+     <LatestStories />
+     <DisplaySection /> 
+     <MiniFooter />
+     <Footer />
     </>
   )
 }

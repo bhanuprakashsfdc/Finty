@@ -3,7 +3,7 @@ import './LatestStories.css'
 import LatestStoriesjson from '../../data/lateststories.json'
 const LatestStories = () => {
   return (
-    <div>
+    <div className="lateststories">
         <h2 className="header">{LatestStoriesjson.header}</h2>
         <div className='lsdata'>
             {LatestStoriesjson.content.map((item, index) => (

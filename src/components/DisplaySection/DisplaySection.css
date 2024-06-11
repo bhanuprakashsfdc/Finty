@@ -4,3 +4,19 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+/* Responsive adjustments */
+
+@media only screen and (max-width:800px) {
+    .DisplaySection {
+        flex-direction: column;  /* Stacks the children vertically on smaller screens */
+        align-items: center;  /* Centers the boxes when stacked */
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .DisplaySection {
+        flex-direction: column;  /* Stacks the children vertically on smaller screens */
+        align-items: center;  /* Centers the boxes when stacked */
+    }
+}

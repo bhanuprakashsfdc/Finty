@@ -1,10 +1,23 @@
-.header{
-   
+.lateststories{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .lsdata{
+    text-align: justify;
+    padding: 0 10px;
 }
 .lsdatavariable{
     border-right: 1px solid;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+/* Responsive adjustments */
+
+@media only screen and (max-width:800px) {
+}
+
+@media only screen and (max-width:500px) {
 }
