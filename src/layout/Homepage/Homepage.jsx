@@ -7,6 +7,8 @@ const Homepage = () => {
  return (
     <div className ="homecon">
       <div className = "item3">
+         <MarketsSection />
+         <MarketsSection />
       </div>
       <div className = "item4">
          <MarketsSection />

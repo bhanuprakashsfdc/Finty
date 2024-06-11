@@ -18,12 +18,7 @@ function App() {
       <Header />
       <MarketScroller />
       <MiniNav />
-     {/* 
       <Homepage />
-      
-      
-           
-     */} 
      <TrendingStories />
      <PopularStocks />
      <Nifty50list />

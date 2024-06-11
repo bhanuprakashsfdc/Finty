@@ -67,7 +67,15 @@
 /* Responsive adjustments */
 
 @media only screen and (max-width:800px) {
+  .menu-toggle {
+    display: block; /* Show toggle button on small screens */
+  }
 
+  .navbar-links {
+      width: 100%; /* Full width for small screens */
+      overflow-x: auto; /* Enable horizontal scrolling for additional links */
+      flex-wrap: nowrap; /* Prevents wrapping */
+  }
 }
 
 @media only screen and (max-width:500px) {
