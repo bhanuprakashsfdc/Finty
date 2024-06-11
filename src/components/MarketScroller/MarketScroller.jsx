@@ -2,6 +2,7 @@ import React from 'react'
 import './MarketScroller.css'
 import Scroller from '../../ui/Scroller/Scroller'
 import Ticker from '../../ui/ticker/ticker'
+import Button from '../../ui/Button/Button'
 const MarketScroller = () => {
     const items = [
         { name: "AAPL", price: "$150.00", percentChange: "0.5", direction: "up" },
@@ -22,7 +23,7 @@ const MarketScroller = () => {
         <div className='scroller'>
             <Scroller items={items} />
         </div>
-        <button> View Market Dashboard</button>
+        <Button text="Market Dashboard" className="pributton"/>
     </div>
   )
 }

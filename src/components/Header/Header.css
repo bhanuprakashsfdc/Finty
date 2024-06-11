@@ -14,3 +14,30 @@
   font-weight: 800;
   font-size: 30px;
 }
+.epaper, .mobnav-iconsleft, .mobnav-iconsright, .mobnav-buttons{
+  display: none;
+}
+
+@media only screen and (max-width:800px) {
+  .epaper, .nav-icons, .nav-buttons{
+    display: none;
+  }
+  .mobnav-iconsleft, .mobnav-iconsright, .mobnav-buttons{
+    display: block;
+  }
+  .mobnav-buttons{
+    display: flex;
+  }
+}
+@media only screen and (max-width:500px) {
+  .epaper, .nav-icons, .nav-buttons{
+    display: none;
+  }
+  .mobnav-iconsleft, .mobnav-iconsright, .mobnav-buttons{
+    display: block;
+  }
+  .mobnav-buttons{
+    display: flex;
+    display: ruby-text;
+  }
+}

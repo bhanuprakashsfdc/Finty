@@ -8,11 +8,10 @@ const DisplaySection = () => {
     const datapages = ["Market Dashboard", "Indices", "Top Gainer", "Mutual Funds", "Gold Price", "Silver Price", "Fuel Price"];
   return (
     <div className='DisplaySection'>
-    <SectionBox headertext="Section" items={secdata}/>
-    <SectionBox headertext="Tools" items={toolsdata}/>
-    <SectionBox headertext="Data Pages" items={datapages}/>
+      <SectionBox headertext="Section" items={secdata}/>
+      <SectionBox headertext="Tools" items={toolsdata}/>
+      <SectionBox headertext="Data Pages" items={datapages}/>
     </div>
-
   )
 }
 

@@ -1,0 +1,49 @@
+.mega-menu-container {
+    position: relative;
+    display: inline-block; /* Or adjust based on layout needs */
+    background-color: black;
+}
+
+.mega-menu {
+    position: absolute;
+    width: 100%; /* Adjust based on the desired width */
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    display: flex;
+}
+
+.menu-section.small {
+    flex: 2;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.menu-section.large {
+    flex: 5;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-post {
+    width: calc(50% - 10px); /* Two posts per row */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.blog-post img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.blog-post h4, .blog-post p {
+    margin: 0;
+}

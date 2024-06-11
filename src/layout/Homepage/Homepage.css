@@ -8,3 +8,29 @@
 .item4{
     width: 30%;
 }
+
+/* Responsive adjustments */
+
+@media only screen and (max-width:800px) {
+    .homecon {
+        grid-template-columns: 1fr; /* single column on small screens */
+        display: block !important;
+      }
+    
+      .item3, .item4 {
+        /* Additional responsive adjustments if needed */
+        width: 100%;
+      }
+}
+
+@media only screen and (max-width:500px) {
+    .homecon {
+        grid-template-columns: 1fr; /* single column on small screens */
+        display: block !important;
+      }
+    
+      .item3, .item4 {
+        width: 100%;
+        /* Additional responsive adjustments if needed */
+      }
+}

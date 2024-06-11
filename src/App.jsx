@@ -10,20 +10,22 @@ import PopularStocks from './components/PopularStocks/PopularStocks'
 import TrendingStories from './components/TrendingStories/TrendingStories'
 import Homepage from './layout/Homepage/Homepage'
 import MarketScroller from './components/MarketScroller/MarketScroller'
+import MiniNav from './components/MiniNav/MiniNav'
 function App() {
 
   return (
     <>
       <Header />
       <MarketScroller />
+      <MiniNav />
       <Homepage />
-      <TrendingStories />
-      <PopularStocks />
-      <Nifty50list />
-      <LatestStories />
-      <DisplaySection />
-      <MiniFooter />
-      <Footer />
+     <TrendingStories />
+     <PopularStocks />
+     <Nifty50list />
+     <LatestStories />
+     <DisplaySection /> 
+     <MiniFooter />
+     <Footer />
     </>
   )
 }

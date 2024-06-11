@@ -4,3 +4,21 @@
   font-family: "Poppins", sans-serif;
   font-size: 12px;
 }
+
+@media only screen and (max-width:800px) {
+  :root {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  :root {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
